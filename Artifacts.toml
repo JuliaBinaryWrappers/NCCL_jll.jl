@@ -1,88 +1,66 @@
 [[NCCL]]
 arch = "x86_64"
 cuda = "10.2"
-git-tree-sha1 = "7487a324941012a90df7047967c990fbb4575ff5"
+git-tree-sha1 = "8091f8109d2a55f9be3c58bface3acdfbfc07ccc"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "05f8b67738b8fc73662c51b7ecce9ddbc4d9873a0b602e288b1d5dbe9a7e4767"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.x86_64-linux-gnu-cuda+10.2.tar.gz"
+    sha256 = "9a31bbf996241f37cc75d56b2b1b5e8b1efa7b99362d0877c559b4180fe1ee4f"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.15.1+0/NCCL.v2.15.1.x86_64-linux-gnu-cuda+10.2.tar.gz"
 [[NCCL]]
 arch = "powerpc64le"
 cuda = "10.2"
-git-tree-sha1 = "7f157aaaf820b953aea5b7f7a4a595144d604c74"
+git-tree-sha1 = "aef96f286316f9ddc6f6fa362983000869c770ce"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "0a65626552a1f30112aab5031d46c372f862a6c0f533431f6efb99cd896f7f31"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.powerpc64le-linux-gnu-cuda+10.2.tar.gz"
+    sha256 = "c8c816f7369036bec9a725ae6fe221a65a9fb7c4275ad369dea882b48bd9686b"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.15.1+0/NCCL.v2.15.1.powerpc64le-linux-gnu-cuda+10.2.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "11.0"
-git-tree-sha1 = "55eebdb4beef56ac2b52222bd4a6b7f1fb0ce0b0"
+git-tree-sha1 = "ddaa592bae2b071fa2f75ea50e564c685b20a21d"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "25072ad4884a3a8a5a180bb8bf37f60b1e69889289c1e0e53faf342c11b1dd31"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.x86_64-linux-gnu-cuda+11.0.tar.gz"
-[[NCCL]]
-arch = "powerpc64le"
-cuda = "11.0"
-git-tree-sha1 = "10c68853da3ebef803ad145b693e933d1713937d"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[NCCL.download]]
-    sha256 = "00975120cd9d208e4da1e7ee02fa587ffde56d324b4129571d1d0d3b06757810"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.powerpc64le-linux-gnu-cuda+11.0.tar.gz"
-[[NCCL]]
-arch = "aarch64"
-cuda = "11.0"
-git-tree-sha1 = "8f03d80726663379baf4e54ac3db2abadceba7a4"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[NCCL.download]]
-    sha256 = "7f96d2f2d2b4aea019d5cec1f21c38dc15f0186f13b332d858f52ef9267bb643"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.aarch64-linux-gnu-cuda+11.0.tar.gz"
+    sha256 = "95ea7aeac71df3b2b9da52426c53a55b89d7de038da94546d74677129dc6b68f"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.15.1+0/NCCL.v2.15.1.x86_64-linux-gnu-cuda+11.0.tar.gz"
 [[NCCL]]
 arch = "x86_64"
-cuda = "11.6"
-git-tree-sha1 = "d4c424147d1b229f6c4fbc2deba0dbf8c5674c66"
+cuda = "11.8"
+git-tree-sha1 = "3cfb20276f39bf1795300806f99925ab95c90148"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "9e0a99b19393580c824d5c1be25bdcf196ebf7e7b1e8fc837d40573c01d3e314"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.x86_64-linux-gnu-cuda+11.6.tar.gz"
+    sha256 = "c980b0590e8542e63267fe3721718751a821e467737025ff02aaa9540197d252"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.15.1+0/NCCL.v2.15.1.x86_64-linux-gnu-cuda+11.8.tar.gz"
 [[NCCL]]
 arch = "powerpc64le"
-cuda = "11.6"
-git-tree-sha1 = "55374b9ba5871655a6db12d745a92e0e53753a70"
+cuda = "11.8"
+git-tree-sha1 = "3a76b8c5b4fd29d4d146839d392e09fa739d953a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "2eccd7799069060bd7198425adc267878bdaa08bbbc8d195dfbf0a9e46d08436"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.powerpc64le-linux-gnu-cuda+11.6.tar.gz"
+    sha256 = "89be6cd0646b0405883a5b4d176e36d796d68f2ccb72f3443c1b0d92475a74e0"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.15.1+0/NCCL.v2.15.1.powerpc64le-linux-gnu-cuda+11.8.tar.gz"
 [[NCCL]]
 arch = "aarch64"
-cuda = "11.6"
-git-tree-sha1 = "7274f84c0df9a52ec49a16b9aa109440db3ecd73"
+cuda = "11.8"
+git-tree-sha1 = "4655f20a8da3224bcacb10ab86a125a94cdf138a"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "98195c8f287476c254310e38ba4fe117ab85ba03b470c8d2370be19d9cf6544c"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.12.7+0/NCCL.v2.12.7.aarch64-linux-gnu-cuda+11.6.tar.gz"
+    sha256 = "dbf1739c4b5faee8e496beeb2e9b568d0b2719b8e3d793a07162c85a94a6a3b5"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.15.1+0/NCCL.v2.15.1.aarch64-linux-gnu-cuda+11.8.tar.gz"
