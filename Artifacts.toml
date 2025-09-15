@@ -1,338 +1,297 @@
 [[NCCL]]
 arch = "x86_64"
-cuda = "11.8"
-git-tree-sha1 = "15d44db7a8f599ad65fe911435face172d578c7a"
-lazy = true
+cuda = "13.0"
+git-tree-sha1 = "96ffa24d371bf9111946d39eda43daa250ca7b0b"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "f5a2ae02ffcd9656e973f1c03ac7140946f044a233e7d9f4bc987daf7cc1e7ba"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+11.8.tar.gz"
+    sha256 = "f01d1d381036e70f9d21e5844b2b6bd87628f0353b9351c58c3d27cf187e9b0b"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+13.0.tar.gz"
 [[NCCL]]
 arch = "aarch64"
-cuda = "11.8"
-cuda_platform = "jetson"
-git-tree-sha1 = "db7d0093494e91c3c900a295170afe160649f4b3"
-lazy = true
+cuda = "13.0"
+git-tree-sha1 = "e91cd46981614377ed5c4e17b1ac52851ccad7e0"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "89b68cbba41fef326c306e4565a98f41347b68c186b5eec74fef670f653ccaf9"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+11.8.tar.gz"
-[[NCCL]]
-arch = "aarch64"
-cuda = "11.8"
-cuda_platform = "sbsa"
-git-tree-sha1 = "4f9dde22a35f754af08d04596c6a71c0ecbe7a1f"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[NCCL.download]]
-    sha256 = "7e04c90d47569ab8304df52f522efc986724ebe463534dcb8be79c8157408bdc"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+11.8.tar.gz"
+    sha256 = "96f5886c9fe9551400de4e61cea51cd36d9479ee9835d32b5f5838d08b7c1d59"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda+13.0.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "2e648bbc416f402b5e91911483e37bdc6b286926"
-lazy = true
+git-tree-sha1 = "a9cf3b02652ac8e52962241fef00bf4479fc39fa"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "a373a830427a9ac87bae1cdd5284557956249bcb8da63ae563d6aaf9ef8a4929"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.0.tar.gz"
+    sha256 = "4bc6420db54ee5550b7339b1afe0d68eefe1c24cbf5f7995ebffaee104fef9d7"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.0.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "jetson"
-git-tree-sha1 = "a746f5184775e242836871edc83c4356b2a09c4b"
-lazy = true
+git-tree-sha1 = "506765834461063c44d6c923bb211f343d5932e4"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "64bc70b4ed12fad4fc24347296981afd51160fee8e97808ec3f4f2a605419a23"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz"
+    sha256 = "77c438ddcb0caa37a58cf359d7ac51e1b562af210b6babc209d61ecad3df852f"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.0.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.0"
 cuda_platform = "sbsa"
-git-tree-sha1 = "7d051818d58c7e98a4b75d72b8ad2122e9b499c7"
-lazy = true
+git-tree-sha1 = "6dfcd4ba5b5a10d7e5692aac16bc29037ca4293c"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "62a7fe8c315ce5e77f3aa698277fc90f0316a4f61d1600537e8dda87e92e2fcf"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"
+    sha256 = "fd7f9b60e8e393be4bdfb8edd996c9c343e3886a66bdd295268a5a4655eed227"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.0.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.1"
-git-tree-sha1 = "cb0361a58fc9a15ac2cd6d87a0ad2403946f89b9"
-lazy = true
+git-tree-sha1 = "83e75d953127fc69bbd1e92562379c3196094631"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "8d8d82e626f4f1adf1e1a6a4fd32e7f2739ad36db59fe30fc92e9c05a49ed06f"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.1.tar.gz"
+    sha256 = "36cfe5bcfc27780c97053a2334d5ca4120bdd8d826ca62334a4abf9b3ddd10cf"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.1.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.1"
 cuda_platform = "jetson"
-git-tree-sha1 = "06dc8c8ce6181f37a847ba7f435e0650792707e5"
-lazy = true
+git-tree-sha1 = "e1d8d63bb3cbf6e1617e7551293b737556a7638a"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "7cb06fab18f905fe31613908b6d88bc713408edf72a252120087a9651f0f8e89"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.1.tar.gz"
+    sha256 = "e1c53c9f1128c85a9aae667df7847f34e349b3f333939eac0b08b3d1fdbe31ce"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.1.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.1"
 cuda_platform = "sbsa"
-git-tree-sha1 = "035e3ce4888ac1bc47d753412fef15308bb89598"
-lazy = true
+git-tree-sha1 = "f93d67c0ce958c2f43b1a3a38e8c5ede49838ed3"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "3934b5f596cd6a5e0e70bae5688781782695c60036a193c3a6e27c23fa75610e"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.1.tar.gz"
+    sha256 = "8060459cbc63087a9e3f53acf56a56e08d25f295986527e63c70616b543b4871"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.1.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.2"
-git-tree-sha1 = "bf6b0359eafd1f6717c5c807f9fbd815db5b6a5b"
-lazy = true
+git-tree-sha1 = "477d0919ff242911102b86acd5006f9ecc594372"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "f6f18328487f6e389c0707309d42069c5dde05f8b1784e9583a6c0bc12645441"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.2.tar.gz"
+    sha256 = "f1425115b66cfeac729f0250870506eea0457fb203563b099fdcec0b65b41607"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.2.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.2"
 cuda_platform = "jetson"
-git-tree-sha1 = "585230f804a3c9e16e4ee813d975f35adefee387"
-lazy = true
+git-tree-sha1 = "19a117b0d67fc1134b7a8dee94bb025ee1760d04"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "8334d197b72c8503a6964f63dd35e60e34ff326d7bb968e396e6a8e1605f97ff"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.2.tar.gz"
+    sha256 = "6db22854de351b78c612f76e37c7233acb79734405fc1ef6be659ea3e4987054"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.2.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.2"
 cuda_platform = "sbsa"
-git-tree-sha1 = "5950ce37a50b793b2a382698a476043cd6559297"
-lazy = true
+git-tree-sha1 = "3a4fbe427604830c320efa0b5e2cd88f7592e25a"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "1d4adb252382c523fa012717718ad3aa202e02dcec22df761f2c217ed68a130b"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.2.tar.gz"
+    sha256 = "435bd72467c4f0f2df78cf41efa6c120d117c01f726924bd39b306cbf37dbe8c"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.2.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.3"
-git-tree-sha1 = "ce142ccf06197c28958bc11f703b95ff30c23b31"
-lazy = true
+git-tree-sha1 = "d9ebba7a4daea1373bd3905a3c3fdaea920abf1e"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "188e724fba30e3880f6bb0708d1f2c1cc7a03ca92ebe26e6458b432cce194227"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.3.tar.gz"
+    sha256 = "2a10945ebce228a47badb6f8c53ac064da68755bb2022eb1b809d46d411d8a96"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.3.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.3"
 cuda_platform = "sbsa"
-git-tree-sha1 = "7f6c8efb44dcb67daa8d97279b79595023cfcbcd"
-lazy = true
+git-tree-sha1 = "13655a9538bd77c4a4315ca16618bdbe0c8c4350"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "dda5195c9d99f2438b83aa59224f2be101f4b8ce68f3d01bccc6fb55ff08deef"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.3.tar.gz"
+    sha256 = "27c5cf9944362744b9e60465e3b22f5c7f3fa17771c531b59a7817615e64bc20"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.3.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.4"
-git-tree-sha1 = "24f3e253393b3b2f1e99568f75c52d566a7ee1d0"
-lazy = true
+git-tree-sha1 = "74fa949f1ae72f77c2a16f58948a160e54ddbc4f"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "10cba5d1094986911a55cca1e871806a147a7a7014693daf3c3df2e448260aa7"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.4.tar.gz"
+    sha256 = "f257b6a55119406aee0fb5ba051fe528313b99d391a7d9655c987465574d6189"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.4.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.4"
 cuda_platform = "jetson"
-git-tree-sha1 = "cdff4fec50d828261f447d043adf405dcc3d51b6"
-lazy = true
+git-tree-sha1 = "1a104e27c9043ce380b65a3a82e0fba7751c0016"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "bf5c8337aa09fbd3983e1ed2c9fb2b41d0bafcea420c01222317e70465c9f9f3"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.4.tar.gz"
+    sha256 = "f73b53982f194f9dae3a8d072f6f1b5e13801e5f0e93916ca0538fded9d68f16"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.4.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.4"
 cuda_platform = "sbsa"
-git-tree-sha1 = "1e353a92b86d67526bb5888af3131770dc0d0636"
-lazy = true
+git-tree-sha1 = "6a8f60f8c9308f74abfa9b43ae3bcb4c6d7beee1"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "a1f791c81872e2b95ddf126ba273b98a940eeee2ad3e787034a3c751613d811d"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.4.tar.gz"
+    sha256 = "848db59405f94fa84dad7eef69bfe1d8168392ddba3696c308d88b90074b3fb1"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.4.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.5"
-git-tree-sha1 = "5813ecde50f819fe28307f0871260b0996c32f6d"
-lazy = true
+git-tree-sha1 = "388d75f25141297423274b9fe1117cfc230542c6"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "ed53698e0ccfeac0e6c25099bdb0f1a86aa29ec859455b175c3adbad9eec1c0c"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.5.tar.gz"
+    sha256 = "ae95dc787c2f5d2709650959d62dd34276de0ee7a3a2128e6780c3cdc3d4315d"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.5.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.5"
 cuda_platform = "jetson"
-git-tree-sha1 = "525dad7712a18c6fc39af5f9bdf1241ea5a0fb9c"
-lazy = true
+git-tree-sha1 = "c74cd79982f934e2ce449b82014d1d2f040e3062"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "bcb6b378e1ee2622876ea53fa11510c9f28bc8c3d7a1e17d85485daa0cf0be24"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.5.tar.gz"
+    sha256 = "cccee1ae6f35d2b0381209837c23e481437a47f8e2d84710b63758b28ce21b00"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.5.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.5"
 cuda_platform = "sbsa"
-git-tree-sha1 = "834fe9a70163041315af995665cd38c143b6cca4"
-lazy = true
+git-tree-sha1 = "7a5fdaa62019800452cee6f54455bf313d47ba4d"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "df07e2b9fa80885a78da3f4a5c01d4985ef105042bad284ea69d18a6442b78bb"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.5.tar.gz"
+    sha256 = "81a4be7ef9e236c3364cff062b1c56e4c74d38bdd44fbc7fa80348aa435d95fd"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.5.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.6"
-git-tree-sha1 = "a69361508d037c8a6b9967a2767c7c3cb2527678"
-lazy = true
+git-tree-sha1 = "55acda647893435d4dde0c86e9fa9aaaae2e1b74"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "3d122b7821c558e921d087374a11fa25d833f9815b148d4e865dee137fe05bc9"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.6.tar.gz"
+    sha256 = "ac4eeb0e8b85584fc9b2e08dc32c10b28868926bab94e8d4948c490ef8395220"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.6.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.6"
 cuda_platform = "jetson"
-git-tree-sha1 = "1fd242eb25981b73acd3ed0e6633306205ea8de7"
-lazy = true
+git-tree-sha1 = "9767d9591c6f12a617c62903a0a8043e477e20f8"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "e60e9ba3059b8be23d8d6861f3e52fccf2af5ecf93adb0592acea1894505e4a4"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.6.tar.gz"
+    sha256 = "4a32b0cce527423458aa529cf0a4d71a0a27decafbc8fc6caffe6ac525267e05"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.6.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.6"
 cuda_platform = "sbsa"
-git-tree-sha1 = "f8ed69b9aef2c19d7403d1aec8e5f63feed8de62"
-lazy = true
+git-tree-sha1 = "cb967d690e5d27110e5560961ecd0ef3e300c417"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "98bb0c41406436be66d5ea29444a17f19b8494e136e0028c4832846e21cea809"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.6.tar.gz"
+    sha256 = "67eb5a58d0d658b4d5e865223c6af2044db38db87a18c4850b6801587ee75ff7"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.6.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.8"
-git-tree-sha1 = "483329af1c566d31b71d8eb202a7612971333217"
-lazy = true
+git-tree-sha1 = "1fb4483f35a770eff323a1fa3e07fcecb08c6f5b"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "737a3f4acab3164e1ffbff33f759cd9bc83b09bb4423d6539b2231226b516cf6"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.8.tar.gz"
+    sha256 = "8be567a49aaea677d155ab9aeef0e4de7c40629215de99c71b8cff9141d0d890"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.8.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.8"
 cuda_platform = "jetson"
-git-tree-sha1 = "745deeaa0dd8bc8d8b5d915a2f9aa3ec77a4f9b0"
-lazy = true
+git-tree-sha1 = "b0879bf62c5f985a48f50cfb9d35cacc159793de"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "1def8bbe23d61cc39ed53c10c12d83d8faa98743a20cf7cc35273dda04987e26"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.8.tar.gz"
+    sha256 = "c90f81e844fadbd9e9bcc3c181fd266c4da7a4f615e687022f008d301591a8f7"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.8.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.8"
 cuda_platform = "sbsa"
-git-tree-sha1 = "92519f7de87f9b5b452949abd67eb873c32bf360"
-lazy = true
+git-tree-sha1 = "5abbb17ec1faa9d9f749a7bbe5f9e35a1d79ddae"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "b9043dd94bce0c08ed11f1ba13c202a8696672b57779e2a1962b628440728e2e"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.8.tar.gz"
+    sha256 = "71be530ee11c6e17aa8a4f722998e9015a2884b30783ac2cacf00c074ad9c83d"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.8.tar.gz"
 [[NCCL]]
 arch = "x86_64"
 cuda = "12.9"
-git-tree-sha1 = "d2e7fd010d881aed594432fc2a9d1af67fd21f80"
-lazy = true
+git-tree-sha1 = "8841a73f2e87b003d3d434a4fe21196aa3dd147b"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "34a06b6a58f4094de75b702f183c816a4cc6b4c077a751cecb56d88283ce5f2c"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.x86_64-linux-gnu-cuda+12.9.tar.gz"
+    sha256 = "74393bf130239e85fb58321ab5ce3d7f1872dff0490c65a587cd72a770819065"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.x86_64-linux-gnu-cuda+12.9.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.9"
 cuda_platform = "jetson"
-git-tree-sha1 = "64439c953b18644167b8117c23bf404a9a2efe6b"
-lazy = true
+git-tree-sha1 = "86cc6aa277b5dc22065154a6ef7ac34840685da1"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "b0bbc433c3b61aee2916ebaeed5bc1c714897f5f85e00ee1c21ec2f2b4de2f6c"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.9.tar.gz"
+    sha256 = "cd2e4d1bf84dd9d18fb734fc44418030359bb233f704f71793b4abf418fee189"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+jetson-cuda+12.9.tar.gz"
 [[NCCL]]
 arch = "aarch64"
 cuda = "12.9"
 cuda_platform = "sbsa"
-git-tree-sha1 = "f1c5c67ffec54137790017382ee7518dc4f7124b"
-lazy = true
+git-tree-sha1 = "e3cec75838cceb821e20c4e8e8556f02653a4fac"
 libc = "glibc"
 os = "linux"
 
     [[NCCL.download]]
-    sha256 = "2d6549a86ecc02f77edef1b38bd590951a414a3e38f3780ab3545cea648e0d43"
-    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.26.5+1/NCCL.v2.26.5.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.9.tar.gz"
+    sha256 = "d8de86f9d92e69cb835bf2952a6cb330c81618ccaad4d837b408c3ab2dd187b4"
+    url = "https://github.com/JuliaBinaryWrappers/NCCL_jll.jl/releases/download/NCCL-v2.28.3+0/NCCL.v2.28.3.aarch64-linux-gnu-cuda_platform+sbsa-cuda+12.9.tar.gz"
