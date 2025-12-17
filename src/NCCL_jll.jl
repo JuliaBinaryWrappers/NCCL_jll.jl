@@ -6,5 +6,5 @@ Base.include(@__MODULE__, joinpath("..", ".pkg", "platform_augmentation.jl"))
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("NCCL")
-JLLWrappers.@generate_main_file("NCCL", UUID("4d6d38e4-5b87-5e63-912a-873ff2d649b7"))
+JLLWrappers.@generate_main_file("NCCL", Base.UUID("4d6d38e4-5b87-5e63-912a-873ff2d649b7"))
 end  # module NCCL_jll

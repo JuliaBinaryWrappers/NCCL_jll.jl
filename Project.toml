@@ -1,6 +1,6 @@
 name = "NCCL_jll"
 uuid = "4d6d38e4-5b87-5e63-912a-873ff2d649b7"
-version = "2.28.3+0"
+version = "2.27.7+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
